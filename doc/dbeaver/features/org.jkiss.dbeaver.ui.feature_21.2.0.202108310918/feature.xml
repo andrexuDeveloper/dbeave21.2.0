@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jkiss.dbeaver.ui.feature"
+      label="%featureName"
+      version="21.2.0.202108310918"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <includes
+         id="org.jkiss.dbeaver.runtime.feature"
+         version="21.2.0.202108310918"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.expressions" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.swt" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.views" version="0.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.search" version="0.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.jkiss.dbeaver.core"
+         download-size="594"
+         install-size="1588"
+         version="21.2.0.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.net.ssh.ui"
+         download-size="30"
+         install-size="62"
+         version="1.0.85.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui"
+         download-size="1017"
+         install-size="1667"
+         version="5.1.79.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.acl"
+         download-size="28"
+         install-size="54"
+         version="1.0.60.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.base"
+         download-size="250"
+         install-size="537"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.connection"
+         download-size="263"
+         install-size="634"
+         version="1.0.55.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.data"
+         download-size="1245"
+         install-size="3024"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.entity"
+         download-size="5"
+         install-size="6"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.hex"
+         download-size="161"
+         install-size="321"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.image"
+         download-size="36"
+         install-size="62"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.json"
+         download-size="20"
+         install-size="32"
+         version="1.0.48.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.sql"
+         download-size="821"
+         install-size="2046"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.session"
+         download-size="42"
+         install-size="92"
+         version="1.0.42.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.editors.xml"
+         download-size="28"
+         install-size="49"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.navigator"
+         download-size="699"
+         install-size="1690"
+         version="1.0.64.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.search"
+         download-size="85"
+         install-size="172"
+         version="1.0.55.202108310918"
+         unpack="false"/>
+
+   <plugin
+          id="org.eclipse.draw2dl"
+          download-size="592"
+          install-size="1105"
+          version="3.12.100.20210721202511"
+          unpack="false"/>
+
+   <plugin
+          id="org.eclipse.gef3"
+          download-size="940"
+          install-size="1635"
+          version="3.12.100.20210721202511"
+          unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.erd.ui"
+         download-size="359"
+         install-size="778"
+         version="3.0.24.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.data.transfer.ui"
+         download-size="279"
+         install-size="664"
+         version="1.0.48.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.data.gis.view"
+         download-size="220"
+         install-size="632"
+         version="1.0.59.202108310918"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.bundle.jfreechart"
+         download-size="1852"
+         install-size="2027"
+         version="1.0.21"
+         unpack="false"/>
+
+   <plugin
+         id="org.jkiss.dbeaver.ui.charts"
+         download-size="21"
+         install-size="38"
+         version="1.0.61.202108310918"
+         unpack="false"/>
+
+</feature>
